@@ -11,4 +11,5 @@ export default defineConfig({
     outDir: "./docs", // for using as github pages
     emptyOutDir: true,
   },
+  base: "./", // build with relative paths
 });
