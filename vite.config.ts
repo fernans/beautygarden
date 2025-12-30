@@ -8,8 +8,8 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 1600,
-    outDir: "./docs", // for using as github pages
+    //outDir: "./docs", // for using as github pages
     emptyOutDir: true,
   },
-  base: "/fernans.github.io/beautygarden/", // ""./"" build with relative paths
+  base: "/beautygarden/", // ""./"" build with relative paths
 });
