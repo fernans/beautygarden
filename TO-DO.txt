@@ -1,0 +1,75 @@
+👍  Main script
+👍      import and combine three + pixi canvas
+
+👍  Game class
+👍      in charge of init, rendering and sync both scenes
+
+👍 General config file
+    👍list of floor materials
+    👍list of plants objects
+    👍list of furniture objects
+    👍load resources
+        👍 (2d) sprites, textures, 
+        👍 (3d) objects
+
+👍 Scene3D
+    👍view control (orbit)
+    👍floor tiles
+    👍raycast
+    👍replace floor materials
+    👍object tiles
+    👍replace ornamental objects
+    👍delete ornamental object
+    👍take snapshot
+
+UI
+    👍 logo (on top, centered)
+    👍 menu layout system (resize)
+    👍 main options
+        👍 take snapshot
+        👍 chage floor
+        👍 add plants objects
+        👍 add furniture objects
+
+    👍 change floor menu
+        👍 list of available floor materials
+        👍 (selected one)
+        👍 (close)
+        
+    👍 add ornamental objects menu
+        👍 object-type groups (plants, furniture)
+        👍 list of available plants
+        👍 list of available furniture
+        👍 (selected one)
+        👍 (remove option)
+        👍 (close)
+
+    Animate menu and buttons (GreenSock)
+        👍 open/show menu  
+        👍 close/hide menu
+        👍 select item (highlight)
+
+Assets
+    👍 logo (sprite)
+    👍 buttons: close, +floor, +ornaments, snapshot, (--help)
+    👍floor materials (textures)
+    👍 custom 3d objects (glb)
+    👍 icons:
+        👍 floor materials (same as 3d textures)
+        👍 plants
+        👍 furniture
+
+
+IMPROVEMENTS:
+(not done due time limitation)
+- background and environtment scene (3d: skybox, house, fence, some background forest...)
+- background plates for menu items
+- help/about screen
+- improved animations (set overlapping movements)
+- sparks (particle emitter) when element placed on stage (paint)
+- Loading screen (waiting for Pixi+3D scenes to load sprites/textures/objects)
+- [bug] when drag (rotate view) = cancel click (prevent to paint on mouseup)
+- [bug?] change three+pixi integration (render 3d to SpriteTexture)
+    (currently approach does not allows "pixi filter" to work properly - due to 3d background)
+
+[ this test/project was done in less than 2days (between christmas holidays) ... no IA involved ]

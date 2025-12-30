@@ -1,0 +1,37 @@
+{
+  "floor": [
+    "./assets/floor/grass.png",
+    "./assets/floor/soil.png",
+    "./assets/floor/bricks.png",
+    "./assets/floor/wood.png",
+    "./assets/floor/marble.png"
+  ],
+  "plants": [
+    {
+      "model": "./assets/objects/flower.glb",
+      "image": "./assets/objects/flower.png"
+    },
+    {
+      "model": "./assets/objects/bursh.glb",
+      "image": "./assets/objects/bursh.png"
+    },
+    {
+      "model": "./assets/objects/tree.glb",
+      "image": "./assets/objects/tree.png"
+    }
+  ],
+  "furniture": [
+    {
+      "model": "./assets/objects/fountain.glb",
+      "image": "./assets/objects/fountain.png"
+    },
+    {
+      "model": "./assets/objects/bench.glb",
+      "image": "./assets/objects/bench.png"
+    },
+    {
+      "model": "./assets/objects/atrium.glb",
+      "image": "./assets/objects/atrium.png"
+    }
+  ]
+}
