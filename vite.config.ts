@@ -8,5 +8,7 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 1600,
+    outDir: "./docs", // for using as github pages
+    emptyOutDir: true,
   },
 });
